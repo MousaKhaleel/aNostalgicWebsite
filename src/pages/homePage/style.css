@@ -1,0 +1,49 @@
+body{
+    background: url(/src/assets/palm-miami-scarface-tropical.jpg);
+    background-size:  cover;
+    text-align: justify;
+    font-family: 'ink free',sans-serif;
+    /*background: hotpink;*/
+}
+.click-table{
+    background: hotpink;
+    border: 1px solid steelblue;
+    text-decoration: none;
+    font-size: larger;
+    text-align: center;
+    padding-inline: 30px;
+}
+.click-table:hover{
+     color: orangered;
+}
+.click-table:link{
+    color: red;
+}
+.click-table:visited{
+    color: #00a8ff;
+}
+#title{
+    color: 	#f4afc2;
+}
+#title-part-two{
+    display: inline-block;
+    font-weight: 500;
+}
+.subtitle{
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: #0266c8;
+    background: linear-gradient(to right, hotpink,#f4afc2);
+}
+.paragraph{
+    color: orange;
+    font-size: larger;
+}
+.ad{
+    height: 500px;
+    background: lightgrey;
+    display: none;
+    margin-right: 5px;
+    float: left;
+}
