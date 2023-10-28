@@ -7,17 +7,26 @@ body{
 }
 .click-table{
     background: hotpink;
-    border: 1px solid steelblue;
-    text-decoration: none;
-    font-size: larger;
+    margin: 1px ;
+    /*border: hidden steelblue;*/
     text-align: center;
     padding-inline: 30px;
 }
-.click-table:hover{
-     color: orangered;
+
+.click-table a{
+    float: center;
+    text-decoration: none;
+    font-size: larger;
+    text-align: center;
 }
+
+.click-table a:hover{
+    background-color: purple;
+     color: hotpink;
+}
+
 .click-table:link{
-    color: red;
+    color: #00a8ff;
 }
 .click-table:visited{
     color: #00a8ff;
@@ -46,4 +55,11 @@ body{
     display: none;
     margin-right: 5px;
     float: left;
+}
+.containter{
+    display: flex;
+}
+#logo{
+    width: 50px;
+    height: fit-content;
 }
