@@ -1,8 +1,10 @@
 body{
-    background: url(/src/assets/palm-miami-scarface-tropical.jpg);
+    background: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),url(/src/assets/palm-miami-scarface-tropical.jpg),hotpink;
     background-size:  cover;
+    background-position: center;
     text-align: justify;
     font-family: 'ink free',sans-serif;
+    font-style: italic;
     /*background: hotpink;*/
 }
 .click-table{
@@ -23,6 +25,7 @@ body{
 .click-table a:hover{
     background-color: purple;
      color: hotpink;
+     /* add hover effict to coloring the hover if that makes sence */
 }
 
 .click-table:link{
@@ -62,4 +65,14 @@ body{
 #logo{
     width: 50px;
     height: fit-content;
+    margin-left: 1230px
+}
+button{
+    text-align: center;
+    font-family: 'ink free',sans-serif;
+    width: 200px;
+    font-style: italic;
+    color: white;
+    background: #f4afc2;
+    border-radius: 25px;
 }
