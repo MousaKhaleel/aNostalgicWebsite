@@ -1,37 +1,78 @@
+html{
+    height: 100%;
+}
+p{
+    color: orange;
+}
+pre{
+    color: orange;
+}
 body{
-    background: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),url(/src/assets/palm-miami-scarface-tropical.jpg),hotpink;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    background:url(/src/assets/ocean-drive.jpg),rgb(231, 18, 124);
+    /*  
+    background: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45),hotpink),url(/src/assets/ocean-drive.jpg),rgb(231, 18, 124);
+    background: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),url(/src/assets/palm-miami-scarface-tropical.jpg),hotpink; */
     background-size:  cover;
+    background-repeat: no-repeat;
     background-position: center;
     text-align: justify;
     font-family: 'ink free',sans-serif;
     font-style: italic;
     /*background: hotpink;*/
 }
-.click-table{
+.hero-image{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/src/assets/palm-miami-scarface-tropical.jpg);
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.hero-image:hover{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url(/src/assets/palm-miami-scarface-tropical.jpg);
+}
+.hero-text{
+    text-align: left;
+    float: right;
+    margin-top: 160px;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.top-navigation{
     background: hotpink;
     margin: 1px ;
     /*border: hidden steelblue;*/
     text-align: center;
     padding-inline: 30px;
 }
+.hero-inside-image{
+    width: 480px;
+    height: fit-content;
+    float: left;
+    margin-top: 20px;
+    margin-left: 15px;
+}
 
-.click-table a{
+.top-navigation a{
     float: center;
     text-decoration: none;
     font-size: larger;
     text-align: center;
 }
 
-.click-table a:hover{
+.top-navigation a:hover{
     background-color: purple;
      color: hotpink;
      /* add hover effict to coloring the hover if that makes sence */
 }
 
-.click-table:link{
+.top-navigation:link{
     color: #00a8ff;
 }
-.click-table:visited{
+.top-navigation:visited{
     color: #00a8ff;
 }
 #title{
@@ -52,13 +93,13 @@ body{
     color: orange;
     font-size: larger;
 }
-.ad{
+/* .ad{
     height: 500px;
     background: lightgrey;
     display: none;
     margin-right: 5px;
     float: left;
-}
+} */
 .containter{
     display: flex;
 }
@@ -75,4 +116,11 @@ button{
     color: white;
     background: #f4afc2;
     border-radius: 25px;
+}
+iframe{
+    height: fit-content;
+    width: fit-content;
+}
+footer{
+    background: #0266c8;
 }
